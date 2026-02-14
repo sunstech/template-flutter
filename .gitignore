@@ -1,0 +1,38 @@
+# Flutter
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/local.properties
+*.apk
+*.aab
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Runner.xcworkspace/
+*.ipa
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.swp
+
+# Environment
+.env
+*.log
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/

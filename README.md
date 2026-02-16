@@ -19,23 +19,31 @@ cp .env.example .env
 flutter run
 ```
 
+> **Not:** Platform klasorleri (android/, ios/, web/) yoksa ilk seferde `flutter create .` calistir.
+
 ## Komutlar
 
 | Komut | Aciklama |
 |-------|----------|
-| flutter run | Development |
-| flutter test | Testleri calistir |
-| flutter analyze | Kod analizi |
-| flutter build apk | Android APK |
-| flutter build ios | iOS build |
-| flutter pub get | Bagimliliklari yukle |
+| `flutter run` | Development |
+| `flutter test` | Testleri calistir |
+| `flutter analyze` | Kod analizi |
+| `flutter build apk` | Android APK |
+| `flutter build ios` | iOS build |
+| `flutter pub get` | Bagimliliklari yukle |
+
+## Tech Stack
+
+- **Framework:** Flutter 3.x
+- **Dil:** Dart
+- **UI:** Material Design 3
 
 ## Git Workflow
 
-- main - Production (sadece PR ile merge)
-- develop - Development
-- feature/xxx - Yeni ozellik
-- fix/xxx - Bug fix
+- `main` - Production (sadece PR ile merge)
+- `develop` - Development
+- `feature/xxx` - Yeni ozellik
+- `fix/xxx` - Bug fix
 
 ### Commit Formati
 ```
